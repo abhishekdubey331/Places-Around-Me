@@ -36,7 +36,7 @@ object NetworkModule {
             .addInterceptor { chain ->
                 val newRequest = chain.request().newBuilder()
                     // TODO Add your FourSquare API key here
-                    .addHeader(Constants.AUTHORIZATION_KEY, "api_key")
+                    .addHeader(Constants.AUTHORIZATION_KEY, "fsq3wBr9LvgIens0vBGxgKzRqDqazjsKr7uAWQgOqEGOTJI=")
                     .build()
                 chain.proceed(newRequest)
             }

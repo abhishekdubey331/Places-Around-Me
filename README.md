@@ -1,28 +1,25 @@
-# Adyen Android Assignment
+# Nearby-Places-Foursquare-Android
+Getting Nearby Places using Foursquare API
 
-This repository contains the coding challenge for candidates applying for a Senior Android role at Adyen.
-It consists of two unrelated parts:
+###  API's Used from FourSquare
+Get Key from Foursquare [site](https://developer.foursquare.com/).
 
-## 1. Cash Register
-Your first task is to implement a cash register. See the `cashregister` module.
+NearBy places [Here](https://developer.foursquare.com/reference/places-nearby).
 
-Criteria:
-- The `CashRegister` gets initialized with some `Change`.
-- When performing a transaction, it either returns a `Change` object or fails with a `TransactionException`.
-- The `CashRegister` keeps track of the `Change` that's in it.
+Search Link from FourSquare [Click](https://developer.foursquare.com/reference/place-search).
 
-Bonus points:
-- The cash register returns the minimal amount of change (i.e. the minimal amount of coins / bills).
 
-## 2. App
-Your second task is to implement a small app using the Foursquare Venue API. See the `app` module.
+## License :oncoming_police_car:
+    Copyright 2022 Abhishek Dubey
 
-The app should show a list of venues around the user’s current location.
-Decide yourself which venue details should be relevant to the user. You have full freedom on how to present data on screen.
-We've already added some code to make it a bit easier for you, but you are free to change any part of it.
-We are going to check your implementation for understanding Android specifics (like handling configuration changes), UX choices, and overall architecture.
-You are free to add any feature or code you want, but we also value quality over quantity, so whatever you decide to do, try to show us your best.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-### Setup
-Add your Foursquare client ID and secret to `local.gradle`. See `local.gradle.example` for details.
-Tip: You can verify your credentials with `src/test/java/com/adyen/android/assignment/VenueUnitTest.kt`
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

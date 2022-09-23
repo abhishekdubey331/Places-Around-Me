@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Assignment</string>
+    <string name="app_name">CallbackFlow Location</string>
     <string name="message_something_went_wrong_str">Something went wrong!</string>
     <string name="message_no_network_connected_str">No network connected!</string>
     <string name="loading_str">"Loading…"</string>
