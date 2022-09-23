@@ -4,7 +4,7 @@ Getting Nearby Places using Foursquare
 ###  API's Used from FourSquare
 Get Key from Foursquare [site](https://developer.foursquare.com/).
 
-Get Category Type [Here](https://developer.foursquare.com/docs/categories).
+NearBy places [Here](https://developer.foursquare.com/reference/places-nearby).
 
 Search Link from FourSquare [Click](https://developer.foursquare.com/reference/place-search).
 
