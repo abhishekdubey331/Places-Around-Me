@@ -1,0 +1,187 @@
+{
+  "results": [
+    {
+      "fsq_id": "55ead64d498edabca02e3126",
+      "categories": [
+        {
+          "id": 12094,
+          "name": "Residential Building",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/apartment_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 60,
+      "geocodes": {
+        "main": {
+          "latitude": 12.975791,
+          "longitude": 77.706573
+        },
+        "roof": {
+          "latitude": 12.975791,
+          "longitude": 77.706573
+        }
+      },
+      "link": "/v3/places/55ead64d498edabca02e3126",
+      "location": {
+        "address": "Karthiknagar",
+        "country": "IN",
+        "cross_street": "",
+        "formatted_address": "Karthiknagar, Bangalore 560048, Karnataka",
+        "locality": "Bangalore",
+        "neighborhood": [
+          "Doddanekundi"
+        ],
+        "postcode": "560048",
+        "region": "Karnataka"
+      },
+      "name": "BREN Avalon",
+      "related_places": {},
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "fsq_id": "4f6b1b5ec2eebb17a9c8a5d2",
+      "categories": [
+        {
+          "id": 18073,
+          "name": "Swimming",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/sports_outdoors_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 536,
+      "geocodes": {
+        "main": {
+          "latitude": 12.979272,
+          "longitude": 77.709584
+        },
+        "roof": {
+          "latitude": 12.979272,
+          "longitude": 77.709584
+        }
+      },
+      "link": "/v3/places/4f6b1b5ec2eebb17a9c8a5d2",
+      "location": {
+        "address": "Keys Select Hotel Whitefield Bangalore, Plot No 6, 1st Phase Industrial Area, Itpl Road",
+        "address_extended": "Opposite Graphite",
+        "country": "IN",
+        "cross_street": "ITPL Main Road, Opp. Graphite India, Whitefield",
+        "formatted_address": "Keys Select Hotel Whitefield Bangalore, Plot No 6, 1st Phase Industrial Area, Itpl Road (ITPL Main Road, Opp. Graphite India, Whitefield), Bangalore 560048, KarnÄ�taka",
+        "locality": "Bangalore",
+        "neighborhood": [
+          "Visveshwaraiah Industrial Estate"
+        ],
+        "postcode": "560048",
+        "region": "KarnÄ�taka"
+      },
+      "name": "Banquets Keys Hotel Whitefield",
+      "related_places": {},
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "fsq_id": "4ea1163a754a48195568b272",
+      "categories": [],
+      "chains": [],
+      "distance": 411,
+      "geocodes": {
+        "main": {
+          "latitude": 12.975863,
+          "longitude": 77.710608
+        }
+      },
+      "link": "/v3/places/4ea1163a754a48195568b272",
+      "location": {
+        "address": "Itpl Road",
+        "country": "IN",
+        "cross_street": "ITPL Road",
+        "formatted_address": "Itpl Road (ITPL Road), Bangalore, KarnÄ�taka",
+        "locality": "Bangalore",
+        "region": "KarnÄ�taka"
+      },
+      "name": "Hotel Nandhini",
+      "related_places": {},
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "fsq_id": "4f2800d5e4b0279eaaec6dee",
+      "categories": [
+        {
+          "id": 11124,
+          "name": "Office",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 95,
+      "geocodes": {
+        "main": {
+          "latitude": 12.974631,
+          "longitude": 77.707426
+        },
+        "roof": {
+          "latitude": 12.974631,
+          "longitude": 77.707426
+        }
+      },
+      "link": "/v3/places/4f2800d5e4b0279eaaec6dee",
+      "location": {
+        "address": "66/I-3, Rmz Centennial",
+        "address_extended": "5th Floor",
+        "country": "IN",
+        "cross_street": "whitefield road",
+        "formatted_address": "66/I-3, Rmz Centennial (whitefield road), Bangalore 560048, KarnÄ�taka",
+        "locality": "Bangalore",
+        "postcode": "560048",
+        "region": "KarnÄ�taka"
+      },
+      "name": "Ogilvy and Mather Worldwide",
+      "related_places": {},
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "fsq_id": "4f8ba36ce4b0e5ed767404cf",
+      "categories": [
+        {
+          "id": 11040,
+          "name": "Factory",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/factory_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 337,
+      "geocodes": {
+        "main": {
+          "latitude": 12.991273,
+          "longitude": 77.687066
+        },
+        "roof": {
+          "latitude": 12.991273,
+          "longitude": 77.687066
+        }
+      },
+      "link": "/v3/places/4f8ba36ce4b0e5ed767404cf",
+      "location": {
+        "address": "1 Visweswariah Industrial Estate",
+        "country": "IN",
+        "cross_street": "",
+        "formatted_address": "1 Visweswariah Industrial Estate, 560048, Karnataka",
+        "postcode": "560048",
+        "region": "Karnataka"
+      },
+      "name": "Jaak Hydro Pneumatic Company",
+      "related_places": {},
+      "timezone": "Asia/Kolkata"
+    }
+  ]
+}

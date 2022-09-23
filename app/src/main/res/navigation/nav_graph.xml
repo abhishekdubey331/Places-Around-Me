@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/venueFragment">
+
+    <fragment
+        android:id="@+id/venueFragment"
+        android:name="com.flow.android.location.ui.venue.VenuesFragment"
+        android:label="VenueFragment"
+        tools:layout="@layout/fragment_venues">
+        <action
+            android:id="@+id/action_venueFragment_to_categoryBottomSheet"
+            app:destination="@id/categoryBottomSheet" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/categoryBottomSheet"
+        android:name="com.flow.android.location.ui.categories.CategoryBottomSheet"
+        tools:layout="@layout/category_bottom_sheet" />
+
+</navigation>

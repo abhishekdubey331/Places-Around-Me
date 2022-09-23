@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/content_margin">
+
+        <TextView
+            android:id="@+id/textview_venue_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Bren Avalon" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_top_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_venue_title"
+            app:srcCompat="@drawable/ic_category_dark" />
+
+        <TextView
+            android:id="@+id/textview_category_venue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_top_margin"
+            app:layout_constraintBottom_toBottomOf="@id/imageview_category"
+            app:layout_constraintStart_toEndOf="@id/imageview_category"
+            app:layout_constraintTop_toTopOf="@id/imageview_category"
+            tools:text="Apartments and Buildings" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_top_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_category_venue"
+            app:srcCompat="@drawable/ic_address" />
+
+        <TextView
+            android:id="@+id/textview_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_top_margin"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:layout_constraintBottom_toBottomOf="@id/imageview_location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imageview_location"
+            app:layout_constraintTop_toTopOf="@id/imageview_location"
+            tools:text="Ferns Paradise Ferns Paradise Ferns Paradise Ferns Paradise " />
+
+        <View
+            android:id="@+id/divider_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/text_top_margin"
+            android:background="?android:attr/dividerVertical"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/textview_address" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_top_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_1"
+            app:srcCompat="@drawable/ic_distance" />
+
+        <TextView
+            android:id="@+id/textview_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/imageview_distance"
+            app:layout_constraintStart_toEndOf="@id/imageview_distance"
+            app:layout_constraintTop_toTopOf="@id/imageview_distance"
+            tools:text="226" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/divider_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_color" />
+
+</LinearLayout>
