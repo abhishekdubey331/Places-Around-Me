@@ -1,5 +1,5 @@
 # Nearby-Places-Foursquare-Android
-Getting Nearby Places using Foursquare
+Getting Nearby Places using Foursquare API
 
 ###  API's Used from FourSquare
 Get Key from Foursquare [site](https://developer.foursquare.com/).
