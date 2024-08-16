@@ -1,4 +1,4 @@
-# Nearby-Places-Foursquare-Android
+# Places Around Me
 
 ## About
 This sample project demonstrates the implementation of Clean Architecture principles in an Android application. It utilizes Kotlin Flows for efficient user location fetching and networking with the Foursquare API. The project emphasizes code quality and reliability through thorough unit testing across view models, repositories, and use cases.
@@ -20,5 +20,3 @@ This sample project demonstrates the implementation of Clean Architecture princi
 - **Get Key from Foursquare:** [Foursquare Developer Portal](https://developer.foursquare.com/)
 - **Nearby Places API:** [Foursquare Nearby Places](https://developer.foursquare.com/reference/places-nearby)
 - **Search Places API:** [Foursquare Place Search](https://developer.foursquare.com/reference/place-search)
-
-## License :oncoming_police_car:
