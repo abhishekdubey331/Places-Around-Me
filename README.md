@@ -4,7 +4,6 @@
 This sample project demonstrates the implementation of Clean Architecture principles in an Android application. It utilizes Kotlin Flows for efficient user location fetching and networking with the Foursquare API. The project emphasizes code quality and reliability through thorough unit testing across view models, repositories, and use cases.
 
 ## Clean Architecture
-The project adheres to Clean Architecture principles, which are designed to separate concerns and make the codebase more maintainable, scalable, and testable. Here's a brief overview of how Clean Architecture is applied in this project:
 
 - **Layers**: The architecture is divided into distinct layers, each with its own responsibility:
   - **Presentation Layer**: Manages UI and user interaction. It includes Activities, Fragments, and ViewModels.
